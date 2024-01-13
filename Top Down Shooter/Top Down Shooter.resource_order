@@ -4,6 +4,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oplayer","order":12,"path":"objects/oplayer/oplayer.yy",},
+    {"name":"sWall","order":14,"path":"sprites/sWall/sWall.yy",},
+    {"name":"sSolidWall","order":16,"path":"sprites/sSolidWall/sSolidWall.yy",},
+    {"name":"oSolidWall","order":17,"path":"objects/oSolidWall/oSolidWall.yy",},
+    {"name":"oWall","order":15,"path":"objects/oWall/oWall.yy",},
     {"name":"splayer","order":11,"path":"sprites/splayer/splayer.yy",},
   ],
 }
