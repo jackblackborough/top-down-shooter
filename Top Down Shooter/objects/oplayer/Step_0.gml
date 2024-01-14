@@ -1,16 +1,14 @@
 /// @description Insert description here
-// You can write your code in this editor
-rightKey = keyboard_check( ord("D")  );
-leftKey = keyboard_check( ord("A")  );
-upKey = keyboard_check( ord("W")  );
-downKey = keyboard_check( ord("S")  );
+
+var rightKey = keyboard_check( ord("D")  );
+var leftKey = keyboard_check( ord("A")  );
+var upKey = keyboard_check( ord("W")  );
+var downKey = keyboard_check( ord("S")  );
 
 
-
-
- var _horizKey = rightKey - leftKey;
- var _vertKey = downKey - upKey;
- moveDir = point_direction( 0, 0, _horizKey, _vertKey);
+var _horizKey = rightKey - leftKey;
+var _vertKey = downKey - upKey;
+moveDir = point_direction( 0, 0, _horizKey, _vertKey);
 
 
 var _spd = 0;
@@ -30,7 +28,5 @@ if place_meeting( x, y + yspd, oWall )
 	yspd = 0;
 }
 
-
 x += xspd;
 y += yspd;
-
