@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Top Down Shooter",
-    "path": "Top Down Shooter.yyp",
+    "name": "Player",
+    "path": "folders/Player.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPlayerDownWalk",
+    "path": "sprites/sPlayerDownWalk/sPlayerDownWalk.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPlayerDownWalk",
+    "path": "sprites/sPlayerDownWalk/sPlayerDownWalk.yy",
+  },
   "visible": true,
 }

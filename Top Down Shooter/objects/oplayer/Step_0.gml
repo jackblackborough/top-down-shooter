@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+#region
+
 var rightKey = keyboard_check( ord("D")  );
 var leftKey = keyboard_check( ord("A")  );
 var upKey = keyboard_check( ord("W")  );
@@ -30,3 +32,17 @@ if place_meeting( x, y + yspd, oWall )
 
 x += xspd;
 y += yspd;
+
+#endregion
+
+// Sprite Control
+
+face = round(moveDir / 90);
+if (face == 4) { face = 0; }
+
+if (xspd == 0 && yspd == 0) {
+	sprite_index = sprite_idle[face]	
+} else {
+	sprite_index = sprite[face]
+}
+
