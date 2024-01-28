@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Top Down Shooter",
-    "path": "Top Down Shooter.yyp",
+    "name": "Environment",
+    "path": "folders/Environment.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

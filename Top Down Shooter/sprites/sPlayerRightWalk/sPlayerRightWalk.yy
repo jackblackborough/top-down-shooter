@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sPlayerRightWalk",
-  "bbox_bottom": 107,
-  "bbox_left": 0,
-  "bbox_right": 19,
+  "bbox_bottom": 26,
+  "bbox_left": 4,
+  "bbox_right": 16,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -32,8 +32,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Sprites",
+    "path": "folders/Player/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
