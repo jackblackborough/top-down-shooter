@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings": [
-    {"name":"Player","order":26,"path":"folders/Player.yy",},
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Environment","order":27,"path":"folders/Environment.yy",},
-    {"name":"Weapon","order":12,"path":"folders/Player/Weapon.yy",},
+    {"name":"Player","order":26,"path":"folders/Player.yy",},
     {"name":"Sprites","order":13,"path":"folders/Player/Sprites.yy",},
+    {"name":"Weapon","order":12,"path":"folders/Player/Weapon.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sPlayerUp","order":7,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
