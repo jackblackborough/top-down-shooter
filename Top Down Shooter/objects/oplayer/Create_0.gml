@@ -7,6 +7,13 @@ xspd = 0;
 yspd = 0;
 
 // Sprite Control
+
+centerYOffset = 15;
+centerY = y + centerYOffset;
+
+weaponOffsetDist = 0;
+aimDir = 0;
+
 face = 3;
 sprite[0] = sPlayerRightWalk;
 sprite[1] = sPlayerUpWalk;

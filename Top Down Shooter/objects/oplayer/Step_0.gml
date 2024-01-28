@@ -33,11 +33,17 @@ if place_meeting( x, y + yspd, oWall )
 x += xspd;
 y += yspd;
 
+depth = -bbox_bottom;
+
+
 #endregion
 
-// Sprite Control
+centerY = y + centerYOffset;
 
-face = round(moveDir / 90);
+aimDir = point_direction( x, centerY, mouse_x, mouse_y );
+
+#region
+face = round(aimDir / 90);
 if (face == 4) { face = 0; }
 
 if (xspd == 0 && yspd == 0) {
@@ -46,3 +52,8 @@ if (xspd == 0 && yspd == 0) {
 	sprite_index = sprite[face]
 }
 
+if (xspd == 0 && yspd == 0)
+{
+	image_angle = 0;
+}
+#endregion

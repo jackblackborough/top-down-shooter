@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Player","order":26,"path":"folders/Player.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sPlayerUp","order":8,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
@@ -9,10 +9,12 @@
     {"name":"sWall","order":14,"path":"sprites/sWall/sWall.yy",},
     {"name":"sPlayerRightWalk","order":7,"path":"sprites/sPlayerRightWalk/sPlayerRightWalk.yy",},
     {"name":"sPlayerLeft","order":4,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
+    {"name":"custom_functions","order":10,"path":"scripts/custom_functions/custom_functions.yy",},
     {"name":"sSolidWall","order":16,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sPlayerLeftWalk","order":5,"path":"sprites/sPlayerLeftWalk/sPlayerLeftWalk.yy",},
     {"name":"oSolidWall","order":17,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oWall","order":15,"path":"objects/oWall/oWall.yy",},
+    {"name":"sbigbulletshooter","order":27,"path":"sprites/sbigbulletshooter/sbigbulletshooter.yy",},
     {"name":"sPlayerUpWalk","order":9,"path":"sprites/sPlayerUpWalk/sPlayerUpWalk.yy",},
     {"name":"sPlayerDownWalk","order":3,"path":"sprites/sPlayerDownWalk/sPlayerDownWalk.yy",},
     {"name":"sPlayerRight","order":6,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
