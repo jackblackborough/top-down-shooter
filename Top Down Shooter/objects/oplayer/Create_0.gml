@@ -8,7 +8,7 @@ yspd = 0;
 
 // Sprite Control
 
-centerYOffset = 15;
+centerYOffset = -10;
 centerY = y + centerYOffset;
 
 weaponOffsetDist = 0;
@@ -26,8 +26,7 @@ sprite_idle[2] = sPlayerLeft;
 sprite_idle[3] = sPlayerDown;
 
 
-
-
+bulletObj = oBullet;
 
 
 
