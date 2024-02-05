@@ -6,8 +6,6 @@ var upKey = keyboard_check( ord("W")  );
 var downKey = keyboard_check( ord("S")  );
 var shootKey = mouse_check_button( mb_left);
 
-
-#region
  
 var _horizKey = rightKey - leftKey;
 var _vertKey = downKey - upKey;
@@ -30,9 +28,6 @@ if place_meeting( x, y + yspd, oWall )
 	yspd = 0;
 }
 
-#endregion
-#endregion
-#region
 x += xspd;
 y += yspd;
 
@@ -58,20 +53,24 @@ if (xspd == 0 && yspd == 0)
 {
 	image_angle = 0;
 }
-#endregion
 
 
+if (shootTimer > 0) 
+{ 
+	shootTimer--; 
+}
 
-
-
-if shootKey
+if (shootKey && shootTimer <= 0) 
 {
+	shootTimer = shootCooldown;
+	
+	var xOffset = lengthdir_x(weaponLength + weaponOffsetDist, aimDir);
+	var yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir);
+	
+	var _bulletInst = instance_create_depth( x + xOffset, centerY + yOffset, depth - 100, oBullet);
 	 
-	 var _bulletInst = instance_create_depth( x, centerY, depth - 100, oBullet);
-	 
-	 with( _bulletInst )
-	 {
-		 dir = other.aimDir;
-	 }
-	 
+	with( _bulletInst )
+	{
+		dir = other.aimDir;
+	}	 
 }

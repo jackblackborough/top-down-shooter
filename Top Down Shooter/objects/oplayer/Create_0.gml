@@ -25,8 +25,10 @@ sprite_idle[1] = sPlayerUp;
 sprite_idle[2] = sPlayerLeft;
 sprite_idle[3] = sPlayerDown;
 
-
+shootTimer = 0;
+shootCooldown = 18;
 bulletObj = oBullet;
+weaponLength = sprite_get_bbox_right(sbigbulletshooter) - sprite_get_xoffset(sbigbulletshooter);
 
 
 
