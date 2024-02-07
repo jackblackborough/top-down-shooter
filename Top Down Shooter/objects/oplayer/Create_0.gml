@@ -26,9 +26,23 @@ sprite_idle[2] = sPlayerLeft;
 sprite_idle[3] = sPlayerDown;
 
 shootTimer = 0;
-shootCooldown = 18;
-bulletObj = oBullet;
-weaponLength = sprite_get_bbox_right(sbigbulletshooter) - sprite_get_xoffset(sbigbulletshooter);
+
+defaultFire = new create_weapon(
+	sDefaultFire,
+	sprite_get_bbox_right(sDefaultFire) - sprite_get_xoffset(sDefaultFire),
+	oDefaultFireBullet,
+	18
+);
+
+powerFire = new create_weapon(
+	sPowerFire,
+	sprite_get_bbox_right(sPowerFire) - sprite_get_xoffset(sPowerFire),
+	oPowerFireBullet,
+	50
+);
+
+
+weapon = powerFire;
 
 
 

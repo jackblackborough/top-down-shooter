@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBullet",
+  "name": "oDefaultFireBullet",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Top Down Shooter",
-    "path": "Top Down Shooter.yyp",
+    "name": "Weapon",
+    "path": "folders/Player/Weapon.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sbulllet",
-    "path": "sprites/sbulllet/sbulllet.yy",
+    "name": "sDefaultFireBullet",
+    "path": "sprites/sDefaultFireBullet/sDefaultFireBullet.yy",
   },
   "spriteMaskId": null,
   "visible": true,

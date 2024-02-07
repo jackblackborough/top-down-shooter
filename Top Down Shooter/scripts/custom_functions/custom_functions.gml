@@ -9,5 +9,5 @@ function draw_my_weapon( )
 		_weaponYscl = -1;
 	}
 
-	draw_sprite_ext ( sbigbulletshooter, 0, x - 3, centerY, 1, 1, aimDir, c_white, 1 );
+	draw_sprite_ext ( weapon.sprite, 0, x - 3, centerY, 1, 1, aimDir, c_white, 1 );
 }
