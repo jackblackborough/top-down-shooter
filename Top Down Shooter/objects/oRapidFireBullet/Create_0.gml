@@ -2,5 +2,5 @@
 // Inherit the parent event
 event_inherited();
 
-spd = 5;
-maxDist = 600;
+spd = 6;
+maxDist = 800;

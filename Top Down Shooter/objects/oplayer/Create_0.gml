@@ -41,8 +41,15 @@ powerFire = new create_weapon(
 	50
 );
 
+rapidFire = new create_weapon(
+	sRapidFire,
+	sprite_get_bbox_right(sRapidFire) - sprite_get_xoffset(sRapidFire),
+	oRapidFireBullet,
+	9
+);
 
-weapon = powerFire;
+
+weapon = rapidFire;
 
 
 
