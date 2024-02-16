@@ -4,8 +4,8 @@ var rightKey = keyboard_check( ord("D")  );
 var leftKey = keyboard_check( ord("A")  );
 var upKey = keyboard_check( ord("W")  );
 var downKey = keyboard_check( ord("S")  );
-var shootKey = mouse_check_button( mb_left);
-
+var shootKey = mouse_check_button(mb_left);
+var weaponSwapKey = mouse_check_button_pressed(mb_right);
  
 var _horizKey = rightKey - leftKey;
 var _vertKey = downKey - upKey;
@@ -54,6 +54,17 @@ if (xspd == 0 && yspd == 0)
 	image_angle = 0;
 }
 
+var _PlayerWeapons = global.PlayerWeapons;
+if (weaponSwapKey) {
+	
+	selectedWeapon++;
+	
+	if (selectedWeapon >= array_length(_PlayerWeapons)) {
+		selectedWeapon = 0;
+	}
+	
+	weapon = _PlayerWeapons[selectedWeapon];
+}
 
 if (shootTimer > 0) 
 { 

@@ -27,30 +27,13 @@ sprite_idle[3] = sPlayerDown;
 
 shootTimer = 0;
 
-defaultFire = new create_weapon(
-	sDefaultFire,
-	sprite_get_bbox_right(sDefaultFire) - sprite_get_xoffset(sDefaultFire),
-	oDefaultFireBullet,
-	18
-);
+array_push(global.PlayerWeapons, global.WeaponList.defaultFire);
+array_push(global.PlayerWeapons, global.WeaponList.rapidFire);
+array_push(global.PlayerWeapons, global.WeaponList.powerFire);
 
-powerFire = new create_weapon(
-	sPowerFire,
-	sprite_get_bbox_right(sPowerFire) - sprite_get_xoffset(sPowerFire),
-	oPowerFireBullet,
-	50
-);
+selectedWeapon = 0;
 
-rapidFire = new create_weapon(
-	sRapidFire,
-	sprite_get_bbox_right(sRapidFire) - sprite_get_xoffset(sRapidFire),
-	oRapidFireBullet,
-	9
-);
-
-
-weapon = rapidFire;
-
+weapon = global.PlayerWeapons[selectedWeapon];
 
 
 
