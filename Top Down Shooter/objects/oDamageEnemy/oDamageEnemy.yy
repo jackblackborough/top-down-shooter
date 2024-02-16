@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oDefaultFireBullet",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "oDamageEnemy",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapon",
-    "path": "folders/Player/Weapon.yy",
+    "name": "Enemies",
+    "path": "folders/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "oDamageEnemy",
-    "path": "objects/oDamageEnemy/oDamageEnemy.yy",
+    "name": "oDamageParent",
+    "path": "objects/oDamageParent/oDamageParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sDefaultFireBullet",
-    "path": "sprites/sDefaultFireBullet/sDefaultFireBullet.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

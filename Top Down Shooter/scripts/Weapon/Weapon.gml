@@ -32,7 +32,7 @@ global.WeaponList = {
 		oPowerFireBullet,
 		50,
 		7,
-		90
+		45
 	),
 
 	rapidFire: new create_weapon(
