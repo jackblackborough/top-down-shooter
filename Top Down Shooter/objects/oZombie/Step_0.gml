@@ -6,6 +6,13 @@ if (instance_exists(oPlayer)) {
 xspd = lengthdir_x(spd, dir);
 yspd = lengthdir_y(spd, dir);
 
+if (xspd > 0) {
+	face = 1;
+} 
+if (xspd < 0) {
+	face = -1;
+}
+
 if (place_meeting(x + xspd, y, oWall) || place_meeting(x + xspd, y, oEnemyParent)) {
 	xspd = 0;
 }
