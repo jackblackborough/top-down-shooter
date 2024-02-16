@@ -78,10 +78,16 @@ if (shootKey && shootTimer <= 0)
 	var xOffset = lengthdir_x(weapon.length + weaponOffsetDist, aimDir);
 	var yOffset = lengthdir_y(weapon.length + weaponOffsetDist, aimDir);
 	
-	var _bulletInst = instance_create_depth( x + xOffset, centerY + yOffset, depth - 100, weapon.bulletObj);
+	var _spread = weapon.spread;
+	var _spreadDiv = _spread / max(weapon.bulletNum - 1, 1);
+	
+	for (var _i = 0; _i < weapon.bulletNum; _i++) {
+		
+		var _bulletInst = instance_create_depth( x + xOffset, centerY + yOffset, depth - 100, weapon.bulletObj);
 	 
-	with( _bulletInst )
-	{
-		dir = other.aimDir;
-	}	 
+		with( _bulletInst )
+		{
+			dir = other.aimDir - _spread / 2 + _spreadDiv * _i;
+		}	 
+	}
 }

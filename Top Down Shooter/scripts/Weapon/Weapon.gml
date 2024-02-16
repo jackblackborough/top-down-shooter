@@ -3,12 +3,16 @@ function create_weapon(
 	_sprite,
 	_length,
 	_bullet_obj,
-	_cooldown
+	_cooldown,
+	_bulletNum = 1,
+	_spread = 0
 ) constructor {	
 	sprite = _sprite;
 	length = _length;
 	bulletObj = _bullet_obj;
-	cooldown = _cooldown;	
+	cooldown = _cooldown;
+	bulletNum = _bulletNum;
+	spread = _spread
 }
 
 global.PlayerWeapons = array_create(0);
@@ -26,14 +30,16 @@ global.WeaponList = {
 		sPowerFire,
 		sprite_get_bbox_right(sPowerFire) - sprite_get_xoffset(sPowerFire),
 		oPowerFireBullet,
-		50
+		50,
+		7,
+		90
 	),
 
 	rapidFire: new create_weapon(
 		sRapidFire,
 		sprite_get_bbox_right(sRapidFire) - sprite_get_xoffset(sRapidFire),
 		oRapidFireBullet,
-		9
+		9,
 	),
 	
 }
