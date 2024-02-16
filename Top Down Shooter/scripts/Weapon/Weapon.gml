@@ -10,5 +10,4 @@ function create_weapon(
 	length = _length;
 	bulletObj = _bullet_obj;
 	cooldown = _cooldown;	
-
 }

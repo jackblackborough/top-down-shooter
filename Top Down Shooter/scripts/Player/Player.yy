@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "weapon_creation",
+  "name": "Player",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Weapon",
-    "path": "folders/Player/Weapon.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }
