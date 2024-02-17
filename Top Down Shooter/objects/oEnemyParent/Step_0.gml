@@ -16,7 +16,7 @@ if (place_meeting(x, y, oDamageEnemy))
 			ds_list_add(damageList, _instance);
 			
 			hp -= _instance.damage;
-			_instance.destroy = true;
+			_instance.hitConfirm = true;
 		}
 	}
 	

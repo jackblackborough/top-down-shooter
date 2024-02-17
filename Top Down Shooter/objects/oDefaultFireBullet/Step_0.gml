@@ -4,17 +4,21 @@ yspd = lengthdir_y( spd, dir );
 x += xspd;
 y += yspd;
 
-if place_meeting( x, y, oSolidWall )
+if (hitConfim == true && enemyDestroy = true) {
+	destroy = true;
+}
+
+if (place_meeting( x, y, oSolidWall ))
 {
-	 destroy = true;
+	destroy = true;
 }		
 
-if point_distance( xstart, ystart, x, y ) > maxDist
+if (point_distance( xstart, ystart, x, y ) > maxDist)
 { 
 	destroy = true;
 }
 
-if destroy == true
+if (destroy == true)
 {
    instance_destroy();
 }
