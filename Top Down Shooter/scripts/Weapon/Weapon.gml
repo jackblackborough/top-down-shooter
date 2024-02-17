@@ -26,13 +26,13 @@ global.WeaponList = {
 		18
 	),
 	
-	powerFire: new create_weapon(
-		sPowerFire,
-		sprite_get_bbox_right(sPowerFire) - sprite_get_xoffset(sPowerFire),
-		oPowerFireBullet,
+	spreadFire: new create_weapon(
+		sSpreadFire,
+		sprite_get_bbox_right(sSpreadFire) - sprite_get_xoffset(sSpreadFire),
+		oSpreadFireBullet,
 		50,
-		7,
-		45
+		5,
+		30
 	),
 
 	rapidFire: new create_weapon(

@@ -29,7 +29,7 @@ shootTimer = 0;
 
 array_push(global.PlayerWeapons, global.WeaponList.defaultFire);
 array_push(global.PlayerWeapons, global.WeaponList.rapidFire);
-array_push(global.PlayerWeapons, global.WeaponList.powerFire);
+array_push(global.PlayerWeapons, global.WeaponList.spreadFire);
 
 selectedWeapon = 0;
 

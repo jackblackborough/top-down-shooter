@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPowerFireBullet",
+  "name": "oSpreadFireBullet",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPowerFireBullet",
-    "path": "sprites/sPowerFireBullet/sPowerFireBullet.yy",
+    "name": "sSpredFireBullet",
+    "path": "sprites/sSpredFireBullet/sSpredFireBullet.yy",
   },
   "spriteMaskId": null,
   "visible": true,
