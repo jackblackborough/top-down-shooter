@@ -1,2 +1,2 @@
 damage = 1
-hitConfim = false;
+hitConfirm = false;

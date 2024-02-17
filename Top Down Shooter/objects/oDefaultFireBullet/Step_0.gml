@@ -4,7 +4,7 @@ yspd = lengthdir_y( spd, dir );
 x += xspd;
 y += yspd;
 
-if (hitConfim == true && enemyDestroy = true) {
+if (hitConfirm == true && enemyDestroy == true) {
 	destroy = true;
 }
 
