@@ -1,20 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oDamagePlayerTest",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Player.yy",
+    "name": "Enemies",
+    "path": "folders/Enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oDamagePlayer",
+    "path": "objects/oDamagePlayer/oDamagePlayer.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,12 +31,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayerDownWalk",
-    "path": "sprites/sPlayerDownWalk/sPlayerDownWalk.yy",
+    "name": "sDamagePlayerTest",
+    "path": "sprites/sDamagePlayerTest/sDamagePlayerTest.yy",
   },
-  "spriteMaskId": {
-    "name": "sPlayerDownWalk",
-    "path": "sprites/sPlayerDownWalk/sPlayerDownWalk.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

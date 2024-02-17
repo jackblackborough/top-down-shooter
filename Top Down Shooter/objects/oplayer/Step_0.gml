@@ -54,6 +54,8 @@ if (xspd == 0 && yspd == 0)
 	image_angle = 0;
 }
 
+getDamaged(oDamagePlayer);
+
 var _PlayerWeapons = global.PlayerWeapons;
 if (weaponSwapKey) {
 	
