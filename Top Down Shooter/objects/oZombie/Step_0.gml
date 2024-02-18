@@ -1,5 +1,4 @@
 
-/*
 if (instance_exists(oPlayer)) {
 	dir = point_direction(x, y, oPlayer.x, oPlayer.y);	
 }
@@ -14,18 +13,17 @@ if (xspd < 0) {
 	face = -1;
 }
 
-if (place_meeting(x + xspd, y, oWall) || place_meeting(x + xspd, y, oEnemyParent)) {
+if (place_meeting(x + xspd, y, oObstacle) || place_meeting(x + xspd, y, oEnemyParent)) {
 	xspd = 0;
 }
 
-if (place_meeting(x, y + yspd, oWall) || place_meeting(x, y + yspd, oEnemyParent)) {
+if (place_meeting(x, y + yspd, oObstacle) || place_meeting(x, y + yspd, oEnemyParent)) {
 	yspd = 0;
 }
 
 
 x += xspd;
 y += yspd;
-*/
 
 
 event_inherited();
