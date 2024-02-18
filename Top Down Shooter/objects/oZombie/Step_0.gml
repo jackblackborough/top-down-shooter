@@ -1,4 +1,5 @@
 
+/*
 if (instance_exists(oPlayer)) {
 	dir = point_direction(x, y, oPlayer.x, oPlayer.y);	
 }
@@ -24,6 +25,7 @@ if (place_meeting(x, y + yspd, oWall) || place_meeting(x, y + yspd, oEnemyParent
 
 x += xspd;
 y += yspd;
+*/
 
 
 event_inherited();

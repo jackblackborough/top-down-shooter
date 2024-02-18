@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-getDamagedCreate(20);
+getDamagedCreate(20, true);
 
 moveDir = 0;
 moveSpd = 2;
