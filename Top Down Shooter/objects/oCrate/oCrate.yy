@@ -1,19 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oDamagePlayerTest",
+  "name": "oCrate",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Enemies.yy",
+    "name": "Environment",
+    "path": "folders/Environment.yy",
   },
   "parentObjectId": {
-    "name": "oDamagePlayer",
-    "path": "objects/oDamagePlayer/oDamagePlayer.yy",
+    "name": "oObstacle",
+    "path": "objects/oObstacle/oObstacle.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sDamagePlayerTest",
-    "path": "sprites/sDamagePlayerTest/sDamagePlayerTest.yy",
+    "name": "sCrate",
+    "path": "sprites/sCrate/sCrate.yy",
   },
   "spriteMaskId": null,
   "visible": true,

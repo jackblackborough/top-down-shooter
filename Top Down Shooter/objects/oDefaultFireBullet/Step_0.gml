@@ -8,7 +8,7 @@ if (hitConfirm == true && enemyDestroy == true) {
 	destroy = true;
 }
 
-if (place_meeting( x, y, oSolidWall ))
+if (place_meeting( x, y, oWall))
 {
 	destroy = true;
 }		

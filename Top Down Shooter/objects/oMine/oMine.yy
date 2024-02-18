@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
-  "eventList": [],
+  "name": "oMine",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +12,8 @@
     "path": "folders/Environment.yy",
   },
   "parentObjectId": {
-    "name": "oObstacle",
-    "path": "objects/oObstacle/oObstacle.yy",
+    "name": "oDamagePlayer",
+    "path": "objects/oDamagePlayer/oDamagePlayer.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSolidWall",
-    "path": "sprites/sSolidWall/sSolidWall.yy",
+    "name": "sDamagePlayerTest",
+    "path": "sprites/sDamagePlayerTest/sDamagePlayerTest.yy",
   },
   "spriteMaskId": null,
   "visible": true,
