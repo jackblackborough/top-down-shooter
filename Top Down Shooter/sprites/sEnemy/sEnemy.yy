@@ -26,7 +26,7 @@
   "origin": 7,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Enemies/Sprites.yy",
+    "path": "folders/Damage/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

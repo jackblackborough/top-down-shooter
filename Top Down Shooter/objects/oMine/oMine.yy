@@ -31,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sDamagePlayerTest",
-    "path": "sprites/sDamagePlayerTest/sDamagePlayerTest.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
