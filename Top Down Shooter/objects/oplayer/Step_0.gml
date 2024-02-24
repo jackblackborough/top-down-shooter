@@ -93,3 +93,9 @@ if (shootKey && shootTimer <= 0)
 		}	 
 	}
 }
+
+if ( hp < 1 )
+{
+     instance_destroy();
+	 game_restart();
+}

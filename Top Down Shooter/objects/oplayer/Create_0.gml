@@ -39,7 +39,7 @@ weapon = global.PlayerWeapons[selectedWeapon];
 
 
 
-
+hp = 10;
 
 
 

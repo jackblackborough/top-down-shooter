@@ -22,8 +22,8 @@ if (place_meeting(x, y + yspd, oObstacle) || place_meeting(x, y + yspd, oEnemyPa
 }
 
 
-//x += xspd;
-//y += yspd;
+x += xspd;
+y += yspd;
 
 
 event_inherited();

@@ -30,16 +30,18 @@ global.WeaponList = {
 		sSpreadFire,
 		sprite_get_bbox_right(sSpreadFire) - sprite_get_xoffset(sSpreadFire),
 		oSpreadFireBullet,
-		50,
-		5,
-		30
+		20,
+		10,
+		45
 	),
 
 	rapidFire: new create_weapon(
 		sRapidFire,
 		sprite_get_bbox_right(sRapidFire) - sprite_get_xoffset(sRapidFire),
 		oRapidFireBullet,
-		9,
+		3,
+		
+		
 	),
 	
 }

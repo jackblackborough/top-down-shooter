@@ -6,6 +6,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayerDownWalk",
-    "path": "sprites/sPlayerDownWalk/sPlayerDownWalk.yy",
+    "name": "sPlayerDown",
+    "path": "sprites/sPlayerDown/sPlayerDown.yy",
   },
   "spriteMaskId": {
     "name": "sPlayerDownWalk",
