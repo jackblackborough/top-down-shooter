@@ -50,7 +50,6 @@
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
-    {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},},
     {"id":{"name":"oBush","path":"objects/oBush/oBush.yy",},},
     {"id":{"name":"oRapidFireBullet","path":"objects/oRapidFireBullet/oRapidFireBullet.yy",},},
     {"id":{"name":"oMine","path":"objects/oMine/oMine.yy",},},

@@ -29,7 +29,6 @@
     {"name":"sTileset","order":3,"path":"sprites/sTileset/sTileset.yy",},
     {"name":"Room","order":1,"path":"rooms/Room/Room.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
-    {"name":"oHouse","order":6,"path":"objects/oHouse/oHouse.yy",},
     {"name":"oBush","order":12,"path":"objects/oBush/oBush.yy",},
     {"name":"oRapidFireBullet","order":8,"path":"objects/oRapidFireBullet/oRapidFireBullet.yy",},
     {"name":"oMine","order":4,"path":"objects/oMine/oMine.yy",},

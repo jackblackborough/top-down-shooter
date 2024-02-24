@@ -31,7 +31,7 @@ if place_meeting( x, y + yspd, oObstacle )
 x += xspd;
 y += yspd;
 
-depth = -bbox_bottom;
+depth = -y;
 
 centerY = y + centerYOffset;
 
