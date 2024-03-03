@@ -1,6 +1,7 @@
 
 function getDamagedCreate(_hp = 10, _iframes = false) 
 {
+	maxHp = _hp;
 	hp = _hp;
 	if (_iframes == true) 
 	{
@@ -19,7 +20,7 @@ function getDamagedCleanup()
 	ds_list_destroy(damageList);
 }
 
-function getDamaged( _damageObject, _iframes = false ) 
+function getDamaged(_damageObject, _iframes = false ) 
 {
 	if (_iframes == true && iframeTimer > 0) 
 	{
@@ -38,7 +39,7 @@ function getDamaged( _damageObject, _iframes = false )
 	
 	image_alpha = 1;
 	
-	if (place_meeting(x, y, _damageObject)) 
+	if (place_meeting(x, y, _damageObject))
 	{
 		
 		// Get a list of damage instances

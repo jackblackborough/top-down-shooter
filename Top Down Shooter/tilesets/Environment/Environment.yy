@@ -32,7 +32,7 @@
   "out_tilevborder": 2,
   "parent": {
     "name": "Environment",
-    "path": "folders/Environment.yy",
+    "path": "folders/Player/Environment.yy",
   },
   "spriteId": {
     "name": "sTileset",

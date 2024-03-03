@@ -44,7 +44,7 @@ switch (state) {
 		
 		if (shoot_timer == 1) 
 		{
-			bullet_instance = instance_create_depth(x, y, depth, oEnemyBullet);
+			bullet_instance = instance_create_depth( x + bulletXoffset*face , y + bulletYoffset , depth, oEnemyBullet);
 		}
 		
 		// Shoot after wind up timer
@@ -91,3 +91,12 @@ y += yspd;
 depth = -y;
 
 event_inherited();
+
+
+
+
+
+
+
+
+

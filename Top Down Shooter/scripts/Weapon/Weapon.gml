@@ -42,6 +42,7 @@ global.WeaponList = {
 		3,
 		
 		
+		
 	),
 	
 }

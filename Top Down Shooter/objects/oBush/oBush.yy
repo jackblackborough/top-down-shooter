@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Environment",
-    "path": "folders/Environment.yy",
+    "path": "folders/Player/Environment.yy",
   },
   "parentObjectId": null,
   "persistent": false,
