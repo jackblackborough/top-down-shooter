@@ -16,4 +16,3 @@ if aimDir >= 180 && aimDir < 360
 	draw_my_weapon();
 }
 
-draw_text(x, y, string(hp));

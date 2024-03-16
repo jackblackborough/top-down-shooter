@@ -1,11 +1,11 @@
 /// @description Insert description here
 
-var rightKey = keyboard_check( ord("D")  );
-var leftKey = keyboard_check( ord("A")  );
-var upKey = keyboard_check( ord("W")  );
-var downKey = keyboard_check( ord("S")  );
-var shootKey = mouse_check_button(mb_left);
-var weaponSwapKey = mouse_check_button_pressed(mb_right);
+var rightKey = global.rightKey; 
+var leftKey = global.leftKey;
+var upKey = global.upKey;
+var downKey = global.downKey;
+var shootKey = global.shootKey;
+var weaponSwapKey = global.weaponSwapKey;
  
 var _horizKey = rightKey - leftKey;
 var _vertKey = downKey - upKey;
@@ -96,6 +96,6 @@ if (shootKey && shootTimer <= 0)
 
 if ( hp < 1 )
 {
+	instance_create_depth(0, 0, -2000, oGameOverScreen);
      instance_destroy();
-	 game_restart();
 }
