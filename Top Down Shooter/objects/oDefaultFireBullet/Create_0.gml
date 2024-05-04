@@ -8,3 +8,4 @@ yspd = 0;
 maxDist = 250;
 destroy = false;
 enemyDestroy = true; // Should bullet destroy when it hits enemy
+damage = 3;

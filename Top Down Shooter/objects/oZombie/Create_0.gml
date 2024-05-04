@@ -18,10 +18,14 @@ face = 1;
 
 // State machine
 state = 0;
-cooldown_time = min(6000, random(7000));
+
+fadeSpd = 1/15;
+emergeSpd = .25;
+
+cooldown_time = max(120, random(240));
 shoot_timer = 0;
 wind_up_time = 60;
-recover_time = min(45, random(60));
+recover_time = max(30, random(60));
 bullet_instance = noone;
 
    bulletXoffset = 5;

@@ -1,9 +1,44 @@
 
-// State machine
+// State machine 
+
+
+var _collisions = true;
+var _getDamage = true;
+
 switch (state) {
+	
+      	
+	case -1:
+	
+		if image_alpha < 1
+		{
+			image_alpha += fadeSpd;
+		}
+		
+		_collisions = false;
+		_getDamage = false;
+		
+		if (image_alpha >= 1) {
+					  
+			spd = emergeSpd;
+		   dir = 270;
+	   }
+	   
+	   if !place_meeting(x, y, oWall) {
+	
+			state = 0;
+			
+		}
+	  
+	break;
+	
+	
 
 	// Chase player
 	case 0:
+	
+		_collisions = true;
+		_getDamage = true;
 	
 		if (instance_exists(oPlayer)) {
 			dir = point_direction(x, y, oPlayer.x, oPlayer.y);	
@@ -15,6 +50,7 @@ switch (state) {
 		// Transition to shooting
 		
 		shoot_timer ++;
+	
 		
 		if (shoot_timer > cooldown_time) 
 		{
@@ -33,6 +69,9 @@ switch (state) {
 		if (instance_exists(oPlayer)) {
 			dir = point_direction(x, y, oPlayer.x, oPlayer.y);	
 		}
+		
+		_collisions = true;
+		_getDamage = true;
 		
 		spd = 0;
 		
@@ -77,22 +116,28 @@ else
 	face = 1;
 }
 
-if (place_meeting(x + xspd, y, oObstacle) || place_meeting(x + xspd, y, oEnemyParent)) {
-	xspd = 0;
-}
+if (_collisions == true) {
+	if (place_meeting(x + xspd, y, oObstacle) || place_meeting(x + xspd, y, oEnemyParent)) {
+		xspd = 0;
+	}
 
-if (place_meeting(x, y + yspd, oObstacle) || place_meeting(x, y + yspd, oEnemyParent)) {
-	yspd = 0;
+	if (place_meeting(x, y + yspd, oObstacle) || place_meeting(x, y + yspd, oEnemyParent)) {
+		yspd = 0;
+	}
 }
+	
+
 
 x += xspd;
 y += yspd;
 
 depth = -y;
 
-event_inherited();
+if (_getDamage == true) {
 
+	event_inherited();
 
+}
 
 
 
