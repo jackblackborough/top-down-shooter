@@ -44,5 +44,49 @@ global.WeaponList = {
 		
 		
 	),
+    destructFire: new create_weapon(
+		sDestructFire,
+		sprite_get_bbox_right(sDestructFire) - sprite_get_xoffset(sDestructFire),
+		oDestructFireBullet,
+		3,
+		2,
+		20
+		
+		
+		
+	),
+        torch: new create_weapon(
+		sTorch,
+		sprite_get_bbox_right(sTorch) - sprite_get_xoffset(sTorch),
+	    oLight,
+	    0,
+		180,
+		180
+		
+		
+		
+	),
+	guitar: new create_weapon(
+		sGuitar,
+		sprite_get_bbox_right(sGuitar) - sprite_get_xoffset(sGuitar),
+	    oMusic,
+	    10,
+		75,
+		75
+		
+		
+		
+	),
 	
+	invisFire: new create_weapon(
+		sInvisFire,
+		sprite_get_bbox_right(sInvisFire) - sprite_get_xoffset(sInvisFire),
+	    oInvisBullet,
+	    0,
+		360,
+	    360
+		
+		
+		
+	),
 }

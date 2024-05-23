@@ -32,6 +32,10 @@ shootTimer = 0;
 array_push(global.PlayerWeapons, global.WeaponList.defaultFire);
 array_push(global.PlayerWeapons, global.WeaponList.rapidFire);
 array_push(global.PlayerWeapons, global.WeaponList.spreadFire);
+array_push(global.PlayerWeapons, global.WeaponList.destructFire);
+array_push(global.PlayerWeapons, global.WeaponList.invisFire);
+array_push(global.PlayerWeapons, global.WeaponList.guitar);
+array_push(global.PlayerWeapons, global.WeaponList.torch);
 
 selectedWeapon = 0;
 

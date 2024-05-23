@@ -3,6 +3,12 @@
 
 timer++;
 
+if instance_number(oEnemyParent) >= global.activeEnemyMax|| global.totalEnemySpawned >= global.enemyRoomMax
+{	
+timer = 0;	
+}
+
+
 if timer >= spawnTime
 {
 
