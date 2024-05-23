@@ -3,9 +3,11 @@
 
 timer++;
 
-if instance_number(oEnemyParent) >= global.activeEnemyMax|| global.totalEnemySpawned >= global.enemyRoomMax
+if (
+	instance_number(oEnemyParent) >= global.activeEnemyMax || global.totalEnemySpawned >= global.enemyRoomMax
+)
 {	
-timer = 0;	
+	timer = 0;	
 }
 
 
@@ -13,6 +15,8 @@ if timer >= spawnTime
 {
 
 	var _inst = instance_create_depth( x, y, depth+1, oZombie);
+
+	
 	with( _inst)
 	{ 
 		image_alpha = 0;

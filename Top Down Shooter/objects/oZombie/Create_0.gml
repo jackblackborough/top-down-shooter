@@ -2,10 +2,6 @@
 // Inherit the parent event
 event_inherited();
 
-
-// Inherit the parent event
-event_inherited();
-
 hp = 10
 spd = 0;
 chase_spd = .4;
