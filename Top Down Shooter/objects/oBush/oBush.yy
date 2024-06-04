@@ -6,8 +6,8 @@
   "name":"oBush",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Player/Environment.yy",
+    "name":"Rooms",
+    "path":"folders/Game/Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,

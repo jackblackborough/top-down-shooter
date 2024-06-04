@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-shootKey = global.shootKey;
+var shootKey = global.shootKey;
 
 alpha += alphaSpd;
 alpha = clamp(alpha, 0, 1);

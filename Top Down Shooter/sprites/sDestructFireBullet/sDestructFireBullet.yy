@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sDestructFireBullet",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":7,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":7,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":16,
+  "height":8,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"62552b7d-716e-41f1-b5dc-92b7c9732487","blendMode":0,"displayName":"default","isLocked":false,"name":"62552b7d-716e-41f1-b5dc-92b7c9732487","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":8,
 }

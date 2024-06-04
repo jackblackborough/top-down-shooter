@@ -5,14 +5,17 @@ function create_weapon(
 	_bullet_obj,
 	_cooldown,
 	_bulletNum = 1,
-	_spread = 0
+	_spread = 0,
+	_pickupSprite = sDefaultFire
+	
 ) constructor {	
 	sprite = _sprite;
 	length = _length;
 	bulletObj = _bullet_obj;
 	cooldown = _cooldown;
 	bulletNum = _bulletNum;
-	spread = _spread
+	spread = _spread;
+	pickupSprite = _pickupSprite;
 }
 
 global.PlayerWeapons = array_create(0);
@@ -23,7 +26,10 @@ global.WeaponList = {
 		sDefaultFire,
 		sprite_get_bbox_right(sDefaultFire) - sprite_get_xoffset(sDefaultFire),
 		oDefaultFireBullet,
-		18
+		18,
+		1,
+		0,
+		sDefaultFirePickup
 	),
 	
 	spreadFire: new create_weapon(
@@ -32,7 +38,8 @@ global.WeaponList = {
 		oSpreadFireBullet,
 		20,
 		10,
-		45
+		45,
+		sSpreadFirePickup
 	),
 
 	rapidFire: new create_weapon(
@@ -40,6 +47,9 @@ global.WeaponList = {
 		sprite_get_bbox_right(sRapidFire) - sprite_get_xoffset(sRapidFire),
 		oRapidFireBullet,
 		3,
+		1,
+		0,
+		sRapidFirePickup
 		
 		
 		
@@ -50,43 +60,9 @@ global.WeaponList = {
 		oDestructFireBullet,
 		3,
 		2,
-		20
-		
-		
-		
-	),
-        torch: new create_weapon(
-		sTorch,
-		sprite_get_bbox_right(sTorch) - sprite_get_xoffset(sTorch),
-	    oLight,
-	    0,
-		180,
-		180
-		
-		
+		20,
+		sDestructFirePickup
 		
 	),
-	guitar: new create_weapon(
-		sGuitar,
-		sprite_get_bbox_right(sGuitar) - sprite_get_xoffset(sGuitar),
-	    oMusic,
-	    10,
-		75,
-		75
-		
-		
-		
-	),
-	
-	invisFire: new create_weapon(
-		sInvisFire,
-		sprite_get_bbox_right(sInvisFire) - sprite_get_xoffset(sInvisFire),
-	    oInvisBullet,
-	    0,
-		360,
-	    360
-		
-		
-		
-	),
+       
 }

@@ -14,8 +14,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Environment",
-    "path":"folders/Player/Environment.yy",
+    "name":"Rooms",
+    "path":"folders/Game/Rooms.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

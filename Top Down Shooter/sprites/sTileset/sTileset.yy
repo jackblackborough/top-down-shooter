@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Player/Environment/Sprites.yy",
+    "path":"folders/Game/Rooms/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

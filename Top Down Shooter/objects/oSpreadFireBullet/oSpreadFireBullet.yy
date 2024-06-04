@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSpredFireBullet",
-    "path":"sprites/sSpredFireBullet/sSpredFireBullet.yy",
+    "name":"sSpreadFireBullet",
+    "path":"sprites/sSpreadFireBullet/sSpreadFireBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

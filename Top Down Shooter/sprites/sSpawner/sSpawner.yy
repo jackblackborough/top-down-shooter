@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Top Down Shooter",
-    "path":"Top Down Shooter.yyp",
+    "name":"Game",
+    "path":"folders/Game.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
