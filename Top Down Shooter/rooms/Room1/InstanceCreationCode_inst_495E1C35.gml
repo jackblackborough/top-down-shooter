@@ -1,1 +1,0 @@
-weapon = global.WeaponList.spreadFire;
