@@ -6,6 +6,7 @@ global.upKey = 0;
 global.downKey = 0;
 global.shootKey = 0;
 global.weaponSwapKey = 0;
+global.StartKeyPressed = 0;
 
 
 

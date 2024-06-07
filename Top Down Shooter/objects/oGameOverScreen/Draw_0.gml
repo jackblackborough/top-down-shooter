@@ -11,15 +11,15 @@ draw_set_alpha( 0 );
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_set_alpha(alpha);
+draw_set_alpha(1);
 draw_set_font( Font1);
 var _gameoverOffset = -32;
 draw_text_transformed( _camX + _camW/2,  _camY + _camH/2 + _gameoverOffset, "GAME OVER", 3, 3, 0);
 
 
 var restartOffset = - 80;
-draw_text_transformed(_camX + _camW/2,  _camY + _camH/2 - restartOffset, " * PRESS  SHOOT TO REPLAY * ", 2, 2, 0);
+draw_text_transformed(_camX + _camW/2,  _camY + _camH/2 - restartOffset, " * PRESS SHOOT  TO RESTART * ", 2, 2, 0);
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_set_alpha( 1 );
+draw_set_alpha(1);	

@@ -6,6 +6,7 @@ global.upKey = keyboard_check( ord("W")  );
 global.downKey = keyboard_check( ord("S")  );
 global.shootKey = mouse_check_button(mb_left);
 global.weaponSwapKey = mouse_check_button_pressed(mb_right);
+global.StartKeyPressed = keyboard_check_pressed( vk_space);
  
 
 
