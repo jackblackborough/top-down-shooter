@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerWins",
+  "%Name":"oScreenPauseTimed",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayerWins",
+  "name":"oScreenPauseTimed",
   "overriddenProperties":[],
   "parent":{
     "name":"Game",
     "path":"folders/Game.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oScreenPause",
+    "path":"objects/oScreenPause/oScreenPause.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

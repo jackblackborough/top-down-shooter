@@ -10,6 +10,49 @@ if (instance_exists(oPlayer))
 	y = oPlayer.centerY - _cameraHeight / 2;
 }
 
+
+if xShakeAmount > 0{
+	
+	xShakeDir += xShakeDirSpd;
+	xShakeAmount -= xShakeAmountSpd;
+	
+}else{
+	
+xShakeAmount = 0;
+xShakeDir = 0;
+	
+}
+x += xShake;
+
+
+
+
+
+
+
+
+
+yShake = dsin(yShakeDir) * yShakeAmount;
+if yShakeAmount > 0{
+	
+	yShakeDir += yShakeDirSpd;
+	yShakeAmount -= yShakeAmountSpd;
+	
+}else{
+	
+yShakeAmount = 0;
+yShakeDir = 0;
+	
+}
+y += yShake;
+
+yShake = dsin(yShakeDir) * yShakeAmount;
+
+
+
+
+
+
 // Clamp camera
 x = clamp(x, 0, room_width - _cameraWidth);
 y = clamp(y, 0, room_height - _cameraHeight);

@@ -33,7 +33,7 @@ function getDamaged(_damageObject, _iframes = false )
 				image_alpha = 1;
 			}
 		}
-		
+		hp = clamp(hp, 0, maxHp);
 		exit;
 	}
 	
@@ -71,7 +71,10 @@ function getDamaged(_damageObject, _iframes = false )
 		
 		if (_iframes == true &&_hitConfirm == true) {
 			iframeTimer = iframeNumber;
+			create_screen_pause(20);
+			screen_shake(7);
 		}
+		
 	
 		ds_list_destroy(_instanceList);
 	}
@@ -89,4 +92,17 @@ function getDamaged(_damageObject, _iframes = false )
 			}
 		}
 	}
+	
+	
+}
+
+function screen_shake( _amount = 7){
+	
+with(oCamera){
+	
+xShakeAmount = _amount;
+yShakeAmount = _amount;
+	
+}
+	
 }

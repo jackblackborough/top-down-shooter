@@ -8,6 +8,7 @@ if (hp < 1)
 {
 	
 	instance_create_depth( x , y, - 10000, oBigBoom);
+	create_screen_pause(3);
 	instance_destroy(); 
 	
 }
