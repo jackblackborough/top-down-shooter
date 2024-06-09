@@ -35,8 +35,8 @@ image_speed = 1;
 
 
  
-var _horizKey = rightKey - leftKey;
-var _vertKey = downKey - upKey;
+var _horizKey = global.xAxisLeft;
+var _vertKey = global.yAxisLeft;
 moveDir = point_direction( 0, 0, _horizKey, _vertKey);
 
 var _spd = 0;
@@ -63,8 +63,15 @@ depth = -y;
 
 centerY = y + centerYOffset;
 
+if (global.controllermode == 0) {
+	aimDir = point_direction( x, centerY, mouse_x, mouse_y );
+}
 
-aimDir = point_direction( x, centerY, mouse_x, mouse_y );
+if (global.controllermode == 1) {
+	if (global.xAxisRight != 0 || global.yAxisRight != 0) {
+		aimDir = point_direction( 0, 0, global.xAxisRight, global.yAxisRight );
+	}
+}
 
 face = round(aimDir / 90);
 if (face == 4) { 
