@@ -9,28 +9,27 @@ var weaponSwapKey = global.weaponSwapKey;
 var startKeyPressed = global.StartKeyPressed;
 
 
-if startKeyPressed{
-	
-if !instance_exists(oPauseScreen){
-	
-	instance_create_depth(0,0,0,oPauseScreen);
-}else{
-	
-	instance_destroy(oPauseScreen);
-}
-	
-}
 
+if startKeyPressed {
+	
+	if !instance_exists(oPauseScreen){
+	
+		instance_create_depth(0,0,0,oPauseScreen);
+	}else{
+	
+		instance_destroy(oPauseScreen);
+	}
 
+}
 
 if instance_exists(oScreenPause){
 	
-image_speed = 0;
-exit;
+	image_speed = 0;
+	exit;
 	
 }else{
 
-image_speed = 1;	
+	image_speed = 1;	
 }
 
 
