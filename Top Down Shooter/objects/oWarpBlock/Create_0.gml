@@ -1,0 +1,2 @@
+targetRoom = room;
+targetObj = noone;

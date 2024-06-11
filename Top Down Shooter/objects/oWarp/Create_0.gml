@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -10000000000;
+depth = -9500;
 
 targetRoom = room;
-targetObj = nooone;
-
-
+targetObj = noone;

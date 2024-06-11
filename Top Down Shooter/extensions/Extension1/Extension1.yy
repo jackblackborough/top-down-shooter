@@ -1,7 +1,7 @@
 {
   "$GMExtension":"",
   "%Name":"Extension1",
-  "androidactivityinject":null,
+  "androidactivityinject":"",
   "androidclassname":"",
   "androidcodeinjection":"",
   "androidinject":"",
@@ -17,7 +17,7 @@
   "extensionVersion":"0.0.1",
   "files":[],
   "gradleinject":"",
-  "hasConvertedCodeInjection":false,
+  "hasConvertedCodeInjection":true,
   "helpfile":"",
   "HTML5CodeInjection":"",
   "html5Props":false,
