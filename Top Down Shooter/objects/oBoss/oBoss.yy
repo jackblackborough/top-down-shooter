@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oLevelNext",
-  "eventList":[],
+  "%Name":"oBoss",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oLevelNext",
+  "name":"oBoss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Game.yy",
+    "name":"Enemies",
+    "path":"folders/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oZombie",
+    "path":"objects/oZombie/oZombie.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLevelNext",
-    "path":"sprites/sLevelNext/sLevelNext.yy",
+    "name":"sBoss",
+    "path":"sprites/sBoss/sBoss.yy",
   },
   "spriteMaskId":null,
   "visible":true,

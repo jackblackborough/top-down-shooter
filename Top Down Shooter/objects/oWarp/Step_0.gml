@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if room == targetRoom {
+if room == targetRoom && global.enemyKillCount = global.totalEnemySpawned{
 	
 	
 	oPlayer.x = targetObj.x;

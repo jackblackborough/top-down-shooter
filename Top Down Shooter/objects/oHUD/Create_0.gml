@@ -13,9 +13,13 @@ global.enemyKillCount = 0;
 
 
 
+if global.enemyKillCount = global.enemyRoomMax{
 
 
+instance_create_depth( x , y, -10000 , oBoss);
 
+
+}
 
 
 

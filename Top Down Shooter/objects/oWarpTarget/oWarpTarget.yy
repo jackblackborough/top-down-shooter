@@ -32,5 +32,5 @@
     "path":"sprites/sWarpTarget/sWarpTarget.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
