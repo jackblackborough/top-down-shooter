@@ -133,3 +133,9 @@ if ( hp < 1 )
 	instance_create_depth(0, 0, -2000, oGameOverScreen);
      instance_destroy();
 }
+
+if global.enemyKillCount = global.enemyRoomMax
+{
+	
+	instance_create_depth(0, 0, -2000, oGameWonScreen);
+}

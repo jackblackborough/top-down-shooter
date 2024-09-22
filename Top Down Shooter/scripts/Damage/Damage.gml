@@ -106,3 +106,6 @@ yShakeAmount = _amount;
 }
 	
 }
+
+global.activeEnemyMax = 1000;
+global.enemyRoomMax = 1000;

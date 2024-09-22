@@ -3,7 +3,7 @@
 //depth = bbox_bottom;
 
 timer = 0;
-spawnTime = 6*60;
+spawnTime = 3*60;
 
 
 
