@@ -47,6 +47,7 @@
     {"name":"oZombie","order":2,"path":"objects/oZombie/oZombie.yy",},
     {"name":"Room","order":1,"path":"rooms/Room/Room.yy",},
     {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
     {"name":"Damage","order":2,"path":"scripts/Damage/Damage.yy",},
     {"name":"Game","order":3,"path":"scripts/Game/Game.yy",},
     {"name":"Weapon","order":1,"path":"scripts/Weapon/Weapon.yy",},
